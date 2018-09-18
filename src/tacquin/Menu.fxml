@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="Fond_Menu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="Titre_Menu" fx:id="fond" layoutX="90.0" layoutY="36.0" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: grey;">
+         <padding>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </padding>
+         <children>
+            <TextField id="Ecriture_Titre_Menu" alignment="CENTER" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: grey;" text="Choisissez votre taille">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+      <Button id="Bouton_3" alignment="CENTER" layoutX="225.0" layoutY="165.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="125.0" text="3x3" />
+      <Button id="Bouton_4" layoutX="225.0" layoutY="290.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="125.0" text="4x4" />
+      <Button id="Bouton_5" layoutX="225.0" layoutY="415.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="125.0" text="5x5" />
+   </children>
+</AnchorPane>
